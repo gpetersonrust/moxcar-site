@@ -1,0 +1,72 @@
+# Wordpress - ignore core, configuration, examples, uploads and logs.
+# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+
+# Core
+#
+# Note: if you want to stage/commit WP core files
+# you can delete this whole section/until Configuration.
+/wp-admin/
+/wp-content/index.php
+/wp-content/languages
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+/.wpe-pull-ignore
+/.wpe-push-ignore
+/apple-touch-icon-precomposed.png
+/apple-touch-icon.png
+/l85O7vrdUd_FaOFvcny84
+/favicon.ico
+/local-xdebuginfo.php
+/wordfence-waf.php
+
+# Configuration
+wp-config.php
+
+# Example themes
+/wp-content/themes/twenty*/
+
+# Example plugin
+/wp-content/plugins/hello.php
+
+# Uploads
+/wp-content/uploads/
+
+/wp-content/smush-webp
+/wp-content/updraft
+/wp-content/webtoffee_iew_log
+/wp-content/webtoffee_import
+/wp-content/wflogs
+/wp-content/advanced-cache.php
+/wp-content/.logs
+
+# Log files
+*.log
+
+# htaccess
+/.htaccess
+
+# All plugins
+#
+# Note: If you wish to whitelist plugins,
+# uncomment the next line
+/wp-content/plugins/*
+# include plugin mox-car
+!/wp-content/plugins/mox-car
+
+# All themes
+#
+# Note: If you wish to whitelist themes,
+# uncomment the next line
+/wp-content/themes/*
+# include theme pro-child
+!/wp-content/themes/pro-child
+
+# recusively ignore any node_modules directories
+**/node_modules
+`
